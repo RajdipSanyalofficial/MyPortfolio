@@ -68,18 +68,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Typing Animation ends
 
 
-
     //Form validation
-
     function validation(){
     const name1 = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const phone = document.getElementById("phone").value.trim();
-    const address = document.getElementById("message").value.trim();
+    const message = document.getElementById("message").value.trim();
     
 
     if (!name1 || !email || !phone || !message) {
-      alert("Please fill in all fields.");
+      alert("Please fill in all fields!");
       return false;
     }
 
@@ -102,10 +100,8 @@ document.addEventListener("DOMContentLoaded", function () {
     return false
   }
 
-    // Success
     alert("Your response has been submitted successfully!");
     document.querySelector("form").reset();
     return true;
   }
-   
   //Form validation
