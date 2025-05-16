@@ -1,4 +1,18 @@
-//Active NavBar
+    //Loading JS
+window.addEventListener("load", function () {
+  const preloader = document.getElementById("preloader");
+  setTimeout(() => {
+    preloader.classList.add("hide");
+    setTimeout(() => {
+      preloader.remove();
+    }, 300); 
+  }, 500);
+});
+    //Loading JS
+
+
+
+    //Active NavBar
 document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll(".nav-link");  
     navLinks.forEach((link) => {
@@ -8,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
-
+   //Active NavBar   
 
 
   // Nav bar close in mobile view
