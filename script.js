@@ -5,8 +5,8 @@ window.addEventListener("load", function () {
     preloader.classList.add("hide");
     setTimeout(() => {
       preloader.remove();
-    }, 300); 
-  }, 500);
+    }, 150); 
+  }, 200);
 });
     //Loading JS
 
