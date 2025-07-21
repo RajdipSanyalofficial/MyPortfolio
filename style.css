@@ -101,15 +101,14 @@ html {
 
 .carousel-inner img {
   width: 100%;
-  height: 64.5vh;
+  height: 100vh;
   margin-top: -1%;
   margin-right: 0%;
-
 }
 
 .carousel-caption {
   position: absolute;
-  top: 60.5%;
+  top: 58.9%;
   margin-left: 1.5%;
   transform: translate(-2%, -51%);
 }
@@ -471,3 +470,21 @@ p.mb-3 {
     padding: 4px 8px;
   }
 }
+
+#prjt {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+#prjt a {
+  flex: 1;
+  align-items: center;
+}
+
+@media(min-width: 767px) and (max-width: 991.98px) {
+  #prjt {
+    flex-direction: column;
+  }
+}
+
