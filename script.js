@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
     setTimeout(() => {
       preloader.remove();
     }, 100);
-  }, 20);
+  }, 10);
 });
 //Loading JS
 
